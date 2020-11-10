@@ -40,7 +40,7 @@ namespace SpinningDiscs
 
         public string DiskInfo()
         {
-            string output = "Disk name: " + Name + "\nMax Capacity: " + StorageCapacity + "\nSpace Used: " + CapacityUsed + "\nAvailable Space: " + RemainingCapacity;
+            string output = "Disk name: " + Name + "\nMax Capacity: " + StorageCapacity + "\nSpace Used: " + CapacityUsed + "\nAvailable Space: " + SpaceLeft();
             return output;
         }
 
